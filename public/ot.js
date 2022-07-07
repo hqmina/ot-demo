@@ -85,7 +85,7 @@ ot.TextOperation = (function () {
       // Create a new op.
       this.ops.push(n);
     }
-    return this;
+    return this
   };
 
   // Insert a string at the current position.
